@@ -34,8 +34,8 @@ public class Client {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getBirthDate() {
-		return sdf.format(birthDate);
+	public Date getBirthDate() {
+		return birthDate;
 	}
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
