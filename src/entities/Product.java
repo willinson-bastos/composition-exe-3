@@ -14,10 +14,10 @@ public class Product {
 	}
 	
 	//get & set
-	public String getProductName() {
+	public String getName() {
 		return name;
 	}
-	public void setProductName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	public Double getPrice() {
